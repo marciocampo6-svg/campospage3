@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Marcio Campos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Marcio Campos</h1>
+        <p>Front End Junior | Profissional em Busca de Oportunidades</p>
+        <div class="navbar">
+            <button onclick="scrollToSection('sobre')">Sobre Mim</button>
+            <button onclick="scrollToSection('habilidades')">Habilidades</button>
+            <button onclick="scrollToSection('curriculo')">Curriculum</button>
+            <button onclick="openWhatsApp()">WhatsApp</button>
+            <button onclick="openReadme()">Portifolio</button>
+        </div>
+    </header>
+    
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Sou Desenvolvedor Front-End Junior, apaixonado por tecnologia e desenvolvimento. Busco uma oportunidade para aplicar meus conhecimentos em HTML, CSS e JavaScript, aprender novas tecnologias e me aprimorar a cada dia. Estou motivado a contribuir em projetos desafiadores e crescer profissionalmente na área de Front-End.</p>
+    </section>
+    
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Desenvolvimento Web</li>
+            <li>Trabalho em Equipe</li>
+            <li>Resolução de Problemas</li>
+        </ul>
+    </section>
+    
+    <section id="curriculo">
+        <h2>Curriculum</h2>
+        <p>Aqui você pode baixar meu currículo completo:</p>
+        <a href="curriculo.pdf" download>Baixar Curriculum (PDF)</a>
+    </section>
+    
+    <footer>
+        <p>&copy; 2026 Marcio Campos. Todos os direitos reservados.</p>
+    </footer>
+    <div id="readmeModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeReadme()">&times;</span>
+            <h1>Portfólio de Marcio Campos</h1>
+            <p>Este é um portfólio simples criado em HTML e CSS para apresentar minhas habilidades e informações de contato.</p>
+            <h2>Como Usar</h2>
+            <ol>
+                <li>Abra o arquivo <code>index.html</code> em qualquer navegador web.</li>
+                <li>A página exibirá meu nome, uma breve descrição, habilidades e informações de contato.</li>
+                <li>Clique no botão "Contato via WhatsApp" para abrir automaticamente o WhatsApp Web.</li>
+            </ol>
+            <h2>Contato</h2>
+            <ul>
+                <li>WhatsApp: +55 11 91972-0892</li>
+            </ul>
+            <h2>Tecnologias Utilizadas</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+            </ul>
+            <h2>Personalização</h2>
+            <p>Você pode editar o arquivo <code>index.html</code> para adicionar mais seções, como experiência profissional ou projetos. O arquivo <code>style.css</code> pode ser modificado para alterar o design.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
